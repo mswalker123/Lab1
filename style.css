@@ -59,30 +59,78 @@ p.intro {
   font-family: sans-serif;
   font-size: 24px;
   padding: 0px;
+ color:black;
 }
+p.aboutme {
+  width:800px;
+  height:90px;
+  margin-left: auto;
 
+}
 .resume{
   font-family: sans-serif;
 }
-
+.pic{
+		width:1000px;
+		margin:auto;
+		padding:5px;
+}
 .mypic{
-  margin: auto;
-  width: 80%;
+      width:190px;
+  		height:190px;
+  		float:left;
+  		margin:3px;
+  		padding:5px;
+}
+
+.text{
+  width:490px;
+		height:100px;
+		margin:3px;
+		margin-left:215px;
+		padding:5px;
+}
+
+.contact{
+  width: 475px;
+  height: 90px;
+  float:left;
+  margin-left: 235px;
+  background-color: black;
+  color:white;
+}
+.aboutpic {
+  margin: 90px;
+  padding: 129px;
+  float: right;
+}
+.about{
+  width:475px;
+  height:300px;
+  float: left;
 }
 
 .first{
-  margin: auto;
   width: 80%;
+  height: auto;
+  margin: auto;
   border: 3px solid gray;
   padding: 40px;
 }
-
+.spacer{
+  height: 10px;
+}
 .list ul {
   font-family: sans-serif;
 }
 
 .list li {
   font-family: sans-serif;
+}
+
+img.me{
+    box-shadow: 10px 10px 5px grey;
+
 }
 a:link {
     text-decoration: none;
